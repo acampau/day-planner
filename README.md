@@ -1,89 +1,38 @@
-# 05 Third-Party APIs: Work Day Scheduler
+<h1> Day Planner </h1>
 
-## Your Task
+<h2> Description</h2>
+<p>This project required creating a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. 
+The applicaiton includes the following:  
+    <ul>
+   <li>Runs in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code</li>
+   <li> Uses the Moment.js library to work with date and time.</li>
+    </ul>
+    </p>
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+<h2>User Story</h2>
+<p>AS AN employee</p>
+<p>I WANT to add important events to a daily planner</p>
+<p>SSO THAT I can manage my time effectively</p>
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+<h2>Acceptance Criteria</h2>
+<p>GIVEN I am using a daily planner to create a schedule</p>
+<p>WHEN I open the planner</p>
+<p>THEN the current day is displayed at the top of the calendar</p>
+<p>WHEN I scroll down</p>
+<p>THEN I am presented with timeblocks for standard business hours</p>
+<p>WHEN I view the timeblocks for that day</p>
+<p>THEN each timeblock is color coded to indicate whether it is in the past, present, or future</p>
+<p><p>WHEN I click into a timeblock</p>
+<p>THEN I can enter an event</p>
+<p>WHEN I click the save button for that timeblock</p>
+<p>THEN the text for that event is saved in local storage </p>
+<p>WHEN I refresh the page</p>
+<p>THEN the saved events persist</p>
 
-## User Story
+<h2>Deployed Page</h2>
+<p>Page published at: https://acampau.github.io/day-planner/
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-- Satisfies all of the above acceptance criteria plus the following:
-
-  - Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-- Application deployed at live URL
-
-- Application loads with no errors
-
-- Application GitHub URL submitted
-
-- GitHub repo contains application code
-
-### Application Quality: 15%
-
-- Application user experience is intuitive and easy to navigate
-
-- Application user interface style is clean and polished
-
-- Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-- Repository has a unique name
-
-- Repository follows best practices for file structure and naming conventions
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages
-
-- Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the deployed application
-
-- The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+<h2>Screenshot</h2>
+<img
+        src="./Assets/05-third-party-apis-homework-demo.gif"
+        alt="screenshot mock-up"/>
